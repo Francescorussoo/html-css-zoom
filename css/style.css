@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.griglia{
+    width: 90vw;
+    margin: 0 auto;
+}
+.nome{
+    background-color: gray;
+    color: white;
+    position: absolute;
+    bottom: 4px;
+}
+.imgprofilo{
+    padding-top: 1vh;
+    position: relative;
+    display: inline-block;
+}
+.mic{
+    background-color: rgb(49, 44, 44);
+    color: white;
+    width: 5vw;
+    display: inline-block;
+    position: relative;
+}
+footer{
+    width: 100%;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(49, 44, 44);
+    justify-content: space-between;
+}
+.icone{
+    display: flex;
+    position: relative;
+     text-align: center;
+}
+.video {
+    display: inline-block;
+    position: relative;
+    width: 5vw;
+    background-color: rgb(49, 44, 44);
+    color: white;
+}
+.fa-microphone, .fa-video, .fa-user {
+    font-size: 30px;
+}
+button {
+    border: 0;
+}
+.centro {
+    display: flex;
+    text-align: center;
+}
+.invite {
+    display: inline-block;
+    background-color: rgb(49, 44, 44);
+    color: white;
+    width: 100px;
+    height: 100px; 
+}
+.spunta {
+    position: absolute;
+    top: 2vw;
+    right: 0;
+    padding-left: 15px;
+}
+.end {
+    display: inline-block;
+    background-color: rgb(74, 74, 74);
+    color: red;
+    width: 10vw;
+    height: 11vh; 
+}
